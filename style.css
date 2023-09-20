@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a starry background */
+body {
+    background-color: #000000;
+    color: #fff;
+    background-image: url(9vry.gif); /* Replace 'stars.png' with the path to your starry background image */
+    background: size 150px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    margin: 100px 0;
+    background-color: rgb(95, 95, 95);
+} 
+
+h1 {
+    font-size: 2.5rem;
+    background-color: grey;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Style sections */
+section {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    margin-left: 30px;
+}
+
+/* Style section headings */
+section h2 {
+    font-size: 1.8rem;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/* Style section content */
+section p {
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-bottom: 30px
+}
+
+/* Style the contact section */
+section#contact {
+    padding: 40px;
+    text-align: left;
+    margin-bottom: 30px
+}
+
+/* Style contact information */
+section#contact p {
+    font-size: 1.2rem;
+}
+
+/* Style contact links */
+section#contact a {
+    color: #007BFF;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
